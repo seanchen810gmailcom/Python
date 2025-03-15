@@ -9,10 +9,9 @@ EX:
 """
 
 print("程式開始")
-c=input("請輸入姓名:")
 a = input("請輸入體重:")
 b = input("請輸入身高:")
 w = float(a)
 h = float(b)
 bmi = w / h**2
-print(f('c')"你的BMI是{bmi}")
+print(f"你的BMI是{bmi}")
