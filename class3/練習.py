@@ -8,14 +8,15 @@ else:
     print("BBBBBBBBBBBBBBBB")
 
 成績1 = input("請輸入成績:")
-成績2 = int(成績1)
+成績2 = float(成績1)
 if 成績2 >= 90:
-    print("A")
+    分數 = "A"
 elif 成績2 >= 80:
-    print("B")
+    分數 = "B"
 elif 成績2 >= 70:
-    print("C")
+    分數 = "C"
 elif 成績2 >= 60:
-    print("D")
+    分數 = "D"
 else:
-    print("F")
+    分數 = "E"
+print(f"你的成績是{分數}")
