@@ -53,3 +53,37 @@ for i in range(4):
     t.stamp()  # 蓋一個印章
     t.right(90)  # 向右轉90度
 t.done()
+
+
+# 蓋圓形範例
+import turtle as t
+
+t.penup()  # 提筆, 這樣就不會畫線但是可以移動
+t.color("red")  # 設定線色為紅色
+t.shape("turtle")  # 設定線形為烏龜
+for i in range(120):
+    t.forward(20)
+    t.stamp()  # 蓋一個印章
+    t.right(10)
+t.done()
+
+# 蓋方形範例
+
+import turtle as t
+
+t.penup()  # 提筆, 這樣就不會畫線但是可以移動
+t.stamp()  # 蓋一個印章
+for i in range(4):
+    t.forward(100)  # 向前走100公尺
+    t.stamp()  # 蓋一個印章
+    t.right(90)  # 向右轉90度
+t.done()
+# 印章形狀種類
+"""
+square
+triangle
+circle
+arrow
+turtle
+chassic
+"""
