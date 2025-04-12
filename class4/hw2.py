@@ -7,8 +7,8 @@
 import turtle as t
 
 t.penup()
-t.color("red")
-t.shape("circle")
+t.color("green")
+t.shape("turtle")
 for i in range(1, 200, 5):
     t.forward(i)
     t.stamp()

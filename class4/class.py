@@ -24,11 +24,11 @@ t.done()  # 讓視窗不要關閉
 for i in range(6):  # range 可以產生一組數字, 0-5
     print(i)
 
-for i in range(1, 6):  # range = 1~5
-    print(i)
+# for i in range(1, 6):  # range = 1~5
+#     print(i)
 
-for i in range(1, 6, 2):  # range = 1,3,5
-    print(i)
+# for i in range(1, 6, 2):  # range = 1,3,5
+#     print(i)
 
 # 蓋圓形範例
 import turtle as t
@@ -85,5 +85,4 @@ triangle
 circle
 arrow
 turtle
-chassic
 """
