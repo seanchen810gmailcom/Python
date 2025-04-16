@@ -3,7 +3,7 @@ print(1 + 1)  # 加法
 print(1 - 1)  # 減法
 print(1 * 1)  # 乘法
 print(1 / 1)  # 除法
-print(1 / 1)  # 取商
+print(1 // 1)  # 取商
 print(1 % 1)  # 取餘數
 print(1**1)  # 次方
 
@@ -34,10 +34,10 @@ le = len("hello")  # 取長度
 print(le)
 
 # type() 取得參數的型態
-print(type(1))  # 取型態
-print(type("hello"))  # 取型態
-print(type(1.0))  # 取型態
-print(type(Ture))  # 取型態
+# print(type(1))  # 取型態
+# print(type("hello"))  # 取型態
+# print(type(1.0))  # 取型態
+# print(type(Ture))  # 取型態
 
 # 型態轉換
 # int() 轉換成整數

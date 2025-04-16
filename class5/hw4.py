@@ -14,3 +14,10 @@ EX:
   *
   *
 """
+
+a = int(input("請輸入要印出的箭頭大小:"))
+for i in range(a + 1):
+    print("*" * i)
+for i in range(a):
+    print("*")
+5
