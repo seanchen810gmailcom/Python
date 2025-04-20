@@ -7,12 +7,12 @@
 import turtle as t
 
 a = 0
-for i in range(8):
+for i in range(12):
     t.speed(0)
     t.penup()
     t.forward(100)
     t.stamp()
     t.home()
     a = a + 1
-    t.right(45 * a)
+    t.right(30 * a)
 t.done()
