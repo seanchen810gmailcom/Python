@@ -37,11 +37,11 @@ while True:
     if 你猜得數字 == 答案:
         break
     elif 你猜得數字 < 答案:
-        print("在大一點")
+        print("再大一點")
         最小 = 你猜得數字
         次數 += 1
     else:
-        print("在小一點")
+        print("再小一點")
         次數 += 1
         最大 = 你猜得數字
 
