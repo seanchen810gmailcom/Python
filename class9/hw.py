@@ -19,3 +19,32 @@ EX:
 請輸入23~25的整數:24
 恭喜猜中!
 """
+
+import random as r
+
+
+最小 = 1
+最大 = 100
+次數 = 0
+答案 = r.randint(1, 100)
+print("程式開始")
+while True:
+    try:
+        你猜得數字 = int(input(f"請輸入一個{最小}~{最大}的數字:"))
+    except:
+        print("請輸入有效數字")
+        continue
+    if 你猜得數字 == 答案:
+        break
+    elif 你猜得數字 < 答案:
+        print("在大一點")
+        最小 = 你猜得數字
+        次數 += 1
+    else:
+        print("在小一點")
+        次數 += 1
+        最大 = 你猜得數字
+
+print("恭喜猜中")
+print(f"你猜的次數是:{次數}")
+print("程式結束")
