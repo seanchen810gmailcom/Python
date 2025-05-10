@@ -17,7 +17,7 @@ while f == 1:
     print("3.葡萄汁")
     print("4.系統結束")
     try:
-        a = int(input("請輸入選項數字:"))
+        a = int(input("請輸入有效數字:"))
     except:
         print("請輸入有選項數字")
     else:
