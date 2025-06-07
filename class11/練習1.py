@@ -39,5 +39,5 @@ while True:
             清單.pop(刪除編號)
 
     elif 要做的事 == "4":
-        print("歡迎下次再期待")
+        print("歡迎下次再期待!")
         break
