@@ -27,10 +27,10 @@ while True:
         水果[修改水果] = 水果價錢
     elif 功能 == "3":
         刪除水果 = input("請輸入刪除的水果名稱:")
-        水果.pop(刪除水果)
-        if (刪除水果 in 水果) == False:
+        if 刪除水果 in 水果:
+            水果.pop(刪除水果)
+        else:
             print("水果名稱不存在!")
-            continue
     elif 功能 == "4":
         print("歡迎下次再期待!")
         break
