@@ -6,6 +6,7 @@
 # 參考code
 import turtle as t
 
+t.speed(0)
 t.penup()
 t.color("green")
 t.shape("turtle")
