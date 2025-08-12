@@ -24,3 +24,4 @@ while True:
     quantity = int(quantity_str)
     price = fruits[fruit_name] * quantity
     print(f"總價格：{price} 元")
+print(f"總價格：{price} 元")
