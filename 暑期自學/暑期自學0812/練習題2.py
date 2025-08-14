@@ -1,31 +1,27 @@
-scores = {}
+fruit = {"蘋果": 20, "香蕉": 15, "西瓜": 50}
 
 while True:
-    user_input = input("請輸入學生姓名與分數（空白分隔），或輸入 done 結束：")
-    if user_input.lower() == "done":
+    user_input = input("請輸入：")
+    if user_input == "exit":
+        print("系統結束")
         break
 
     parts = user_input.split()
     if len(parts) != 2:
-        print("格式錯誤，請重新輸入：名字 分數")
+        print("輸入格式錯誤，請輸入：水果名 數量")
         continue
 
-    name, score_str = parts
-    if not score_str.isdigit():
-        print("分數必須是數字")
+    水果名稱, 水果數量 = parts
+
+    if 水果名稱 not in fruit:
+        print("水果不存在")
+        print(fruit)
         continue
 
-    score = int(score_str)
-    scores[name] = score
+    if not 水果數量.isdigit():
+        print("請輸入正整數")
+        continue
 
-print("\n=== 學生成績 ===")
-for name, score in scores.items():
-    print(f"{name}: {score}")
-
-if scores:
-    avg = sum(scores.values()) / len(scores)
-    print(f"平均分數：{avg:.2f}")
-
-    print("\n=== 由高到低排序 ===")
-    for name, score in sorted(scores.items(), key=lambda x: x[1], reverse=True):
-        print(f"{name}: {score}")
+    數量 = int(水果數量)
+    總價 = fruit[水果名稱] * 數量
+    print(f"{水果名稱}的價格是{fruit[水果名稱]}，{數量}個總共是{總價}")
