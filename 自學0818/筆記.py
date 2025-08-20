@@ -23,10 +23,19 @@ print("Hello\vWorld")  # Hello
 # 跟電腦的backspace按鍵很像，可以刪除他左邊的一個字元
 # 舉例：
 print("Helloo\bWorld")  # HelloWorld，因為Helloo的第二個o被刪除了
-#
-
-
-# \a 額外介紹：
+# \" 雙引號
+# 可以在不被終端機誤會的狀態下寫雙引號
+# 舉例：
+print('"I can\'t do it"')  # "I can't do it"
+# \n 換行
+# 可以在print裡面加上\n，讓print的時候換行
+# 舉例：
+print("Hello\nWorld")  # Hello
+# World
+# \t 水平定位 (Tab)
+# 可以在print裡面加上\t，讓print的時候出現Tab空格
+# 舉例：
+print("Hello\tWorld")  # Hello   World
 # \a 響鈴
 # 因為vscode是模擬器，所以會省略發出聲音
 # 方法：
