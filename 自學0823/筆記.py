@@ -22,7 +22,6 @@ print("Name: {name}, Age: {age}".format(name="Tom", age=12))  # Name: Tom, Age: 
 print("|{:>5}|".format(7))  # |    7|
 print("|{:<5}|".format(7))  # |7    |
 print("|{:^5}|".format(7))  # |  7  |
-ㄅ
 
 #  浮點數控制
 
@@ -51,4 +50,5 @@ print("{:X}".format(93))  # 5D     (十六進位大寫)
 # 百分比表示
 
 # 自動乘以 100 後加 %
+# 舉例：
 print("{:.1%}".format(0.1234))  # 12.3%
