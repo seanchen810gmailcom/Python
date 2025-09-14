@@ -59,7 +59,7 @@ from mpl_toolkits.mplot3d import Axes3D
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection="3d")
-ax.plot([1, 2, 3], [4, 5, 6], [7, 8, 9])
+ax.plot([1, 2, 3], [4, 5, 6], [7, 8, 9], [3, 5, 4], [1, 2, 3])
 plt.show()
 
 # (進階) 動畫: 使用 matplotlib.animation.FuncAnimation
